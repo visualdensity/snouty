@@ -1,9 +1,14 @@
 Project Snouty
 ==============
 
-To start, do the following, in order:
+This is a base Symfony project stub for quick start of new Symfony based projects.
+To start, clone the repository and in the cloned repo, simply run:
 
-  1. Copy app/config/parameters.yml-dist to app/config/parameters.yml
+    ./setup.sh
+
+Or if you need to run it manually, do the following, in order:
+
+  1. Copy `app/config/parameters.yml-dist` to `app/config/parameters.yml`
   2. In the root folder, run `php ./composer.phar install`
 
 After installing all the required packages, you should be able to run the following:
